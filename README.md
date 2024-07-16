@@ -1,2 +1,2 @@
 # exercicios aulas python 3
- codigos dos exercicos de python 3 curso em video
+ codigos dos exercícios de python 3 curso em video!
