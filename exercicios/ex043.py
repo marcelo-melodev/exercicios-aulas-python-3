@@ -1,22 +1,22 @@
-import math
-peso = float(input('Informe o peso da pessoa: (Kg)'))
-altura = float(input('Informe o altura da pessoa: (m)'))
+peso = float(input('Informe o peso da pessoa:'))
+altura = float(input('Informe a altura da pessoa:'))
 imc = peso / (altura**2)
 if imc < 18.5:
-    print(f'O IMC dessa pessoa é {imc:.2f}:')
-    print('Você está abaixo do peso.')
+    print(f'O imc da pessoa é de {imc:.1f}.')
+    print('Você está abaixo do peso!')
 elif imc >= 18.5 and imc <= 25:
-        print(f'Você está com o IMC de {imc:.2f}:')
-        print('Seu peso está normal!')
-elif imc >=25 and imc <= 30:
-      print(f'Você está com o IMC de {imc:.2f}:')
-      print('Você esta com sobrepeso!')
+    print(f'O imc da pessoa é de {imc:.1f}.')
+    print('Você está no peso normal!')
+elif imc >= 25 and imc <= 30:
+    print(f'O imc da pessoa é de {imc:.1f}.')
+    print('Vosê está com sobre peso!')
 elif imc >= 30 and imc <= 40:
-      print(f'Você está com o IMC de {imc:.2f}.')
-      print('Você esta com Obesidade!')
+    print(f'O imc da pessoa é de {imc:.1f}.')
+    print('Você está com Obesidade!')
 else:
-     print(f'Você está com o ICM de {imc:.2f}')
-     print('Você está com obesidade morbida!')
+    print(f'o imc da pessoa é de {imc:.1f}.')
+    print('Você está com Obesidade Morbida!') 
+
 
 
     
