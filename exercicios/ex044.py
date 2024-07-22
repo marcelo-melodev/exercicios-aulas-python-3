@@ -8,6 +8,11 @@ print('[3] 2x no cartão de crédito:')
 print('[4] 3x ou mais no cartão de crédito:')
 opção = int(input('Qual a sua opção?'))
 if opção ==1:
-    print(f'Sua compra de {preço} vai custar {(preço*10/100)-(preço)}')
+    print(f'Sua compra de R${preço} vai custar R${preço*10//100 - preço}')
 elif opção == 2:
-    print(f'Sua compra de {preço:.1f} vai custar {preço*5//100 - preço}')
+    print(f'Sua compra de R${preço:.1f} vai custar R${preço*5//100 - preço}')
+elif opção == 3:
+    print(f'Sua compra de R${preço} vai custar R${preço}')
+else:
+   parcelas = input('Escolha a quantidade de parcelas')
+   print(f'Sua compra parcelada em {parcelas}x de')
