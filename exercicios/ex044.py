@@ -14,5 +14,6 @@ elif opção == 2:
 elif opção == 3:
     print(f'Sua compra de R${preço} vai custar R${preço}')
 else:
-   parcelas = input('Escolha a quantidade de parcelas')
-   print(f'Sua compra parcelada em {parcelas}x de')
+   parcelas = int(input('Escolha a quantidade de parcelas'))
+   print(f'Sua compra parcelada em {parcelas}x de R${(preço*20/100 + preço) / parcelas} com juros.')
+   print(f'Sua compra de {preço} vai custar {preço*20/100 + preço} no final.')
