@@ -14,6 +14,20 @@ sleep(1)
 print('KEN')
 sleep(1)
 print('PÔ')
+sorteio = int(randint(0,2))
+if sorteio == 0:
+    print('''====================
+          Computador jogou Pedra
+          ==============================''')
+elif sorteio == 1:
+    print('''===================
+          Computador jogou Papel
+          ===============================''')
+else:
+    print('''======================
+          Computador jogou Tesoura
+          ===============================''')
+
 
 
 
