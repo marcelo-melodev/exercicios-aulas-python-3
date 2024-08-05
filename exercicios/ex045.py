@@ -4,7 +4,7 @@ print('Suas opções:')
 print('[0] Pedra')
 print('[1] Papel')
 print('[2] Tesoura')
-itens = ('Pedra', 'Papel', 'Tesoura')
+itens = ('👊', '🖐', '✌')
 jogada = int(input('Qual a sua jogada?'))
 sleep(1)
 print('JO')
@@ -23,7 +23,7 @@ if sorteio ==0:
     elif jogada ==1:
         print('Jogador Vence')
     elif jogada ==2:
-        print('Omputador vence')
+        print('Computador vence')
     else:
         print('Jogada Invalida!')
 elif sorteio ==1:
@@ -39,11 +39,13 @@ elif sorteio ==2:
     if jogada == 0:
         print('jogador Vence')
     elif jogada ==1:
-        print('Cmputador Vence')
+        print('Computador Vence')
     elif jogada ==2:
         print('Empate')
     else:
         print('Jogada Inválida')
+print('==============Placar============')
+
 
 
 
