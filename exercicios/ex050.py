@@ -1,5 +1,5 @@
 num = int(input('Digite 6 numero:'))
-soma = num + num
-if soma % num == 0:
-    print('')
+if num % 2 == 0:
+        print(num + num)
+        e
 print('Fim')
