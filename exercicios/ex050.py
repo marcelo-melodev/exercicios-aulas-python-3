@@ -1,14 +1,8 @@
 s = 0
-for c in range(0, 6):
+for c in range(0,6):
     num = int(input('Digite um numero:'))
-    s += num
+    s+=num
 if num %2 == 0:
-    print(f'{s}')
+    print(s)
 else:
-    print()
-
-
-
-
-
-        
+    print('Não foram digitados numeros pares')
