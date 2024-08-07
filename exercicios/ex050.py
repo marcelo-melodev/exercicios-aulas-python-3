@@ -1,8 +1,8 @@
-s = 0
+soma = 0
+cont = 0
 for c in range(0,6):
     num = int(input('Digite um numero:'))
-    s+=num
-if num %2 == 0:
-    print(s)
-else:
-    print('Não foram digitados numeros pares')
+    if num %2 == 0:
+        soma += num
+        cont += 1
+print(f'Você informou {cont} numeros pares e a soma foi {soma}')
